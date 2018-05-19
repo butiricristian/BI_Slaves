@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Slave_Integration", "Slave_Integration\Slave_Integration.dtproj", "{0FB78E0B-4261-4D34-9EF7-8A784E48F520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FB78E0B-4261-4D34-9EF7-8A784E48F520}.Development|Default.ActiveCfg = Development
+		{0FB78E0B-4261-4D34-9EF7-8A784E48F520}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D432093-E523-4ABD-89D5-478AEC459E2A}
+	EndGlobalSection
+EndGlobal
