@@ -1,0 +1,87 @@
+USE [SlaveDB]
+GO
+
+/****** Object:  Table [dbo].[SlaveTable]    Script Date: 5/20/2018 2:55:07 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[SlaveTable](
+	[ID number] [bigint] NULL,
+	[Conveyance] [smallint] NULL,
+	[Page] [smallint] NULL,
+	[Researcher] [varchar](4) NULL,
+	[Notary First Name] [varchar](19) NULL,
+	[Notary Last Name] [varchar](11) NULL,
+	[Sales Date] [datetime] NULL,
+	[Sellers First Name] [varchar](89) NULL,
+	[Sellers Last Name] [varchar](50) NULL,
+	[Sellers County of Origin] [varchar](48) NULL,
+	[Sellers State of Origin] [varchar](11) NULL,
+	[Representing Seller] [varchar](76) NULL,
+	[Relationship to Seller] [varchar](59) NULL,
+	[Buyers First Name] [varchar](54) NULL,
+	[Buyers Last Name] [varchar](33) NULL,
+	[Buyers County of Origin] [varchar](29) NULL,
+	[Buyers State of Origin] [varchar](8) NULL,
+	[Representing Buyer] [varchar](37) NULL,
+	[Relationship to Buyer] [varchar](35) NULL,
+	[Slave Name] [varchar](40) NULL,
+	[Sex] [varchar](8) NULL,
+	[Age] [smallint] NULL,
+	[Color] [varchar](19) NULL,
+	[Occupation] [varchar](32) NULL,
+	[Family Relationship] [varchar](41) NULL,
+	[Name Child 1] [varchar](21) NULL,
+	[Sex Child 1] [varchar](1) NULL,
+	[Age Child 1] [smallint] NULL,
+	[Name Child 2] [varchar](16) NULL,
+	[Sex Child 2] [varchar](1) NULL,
+	[Age Child 2] [smallint] NULL,
+	[Name Child 3] [varchar](19) NULL,
+	[Sex Child 3] [varchar](1) NULL,
+	[Age Child 3] [smallint] NULL,
+	[Name Child 4] [varchar](14) NULL,
+	[Sex Child 4] [varchar](1) NULL,
+	[Age Child 4] [smallint] NULL,
+	[Name Child 5] [varchar](10) NULL,
+	[Sex Child 5] [varchar](1) NULL,
+	[Age Child 5] [smallint] NULL,
+	[Name Child 6] [varchar](9) NULL,
+	[Sex Child 6] [varchar](1) NULL,
+	[Age Child 6] [smallint] NULL,
+	[Name Child 7] [varchar](9) NULL,
+	[Sex Child 7] [varchar](1) NULL,
+	[Age Child 7] [smallint] NULL,
+	[Name Child 8] [varchar](255) NULL,
+	[Sex Child 8] [varchar](255) NULL,
+	[Age Child 8] [varchar](255) NULL,
+	[Guaranteed] [varchar](7) NULL,
+	[Notes on Guarantee] [varchar](180) NULL,
+	[Number of Total Slaves] [smallint] NULL,
+	[Number of Adult Slaves] [smallint] NULL,
+	[Number of Child Slaves] [smallint] NULL,
+	[Number of Prices] [smallint] NULL,
+	[Price] [int] NULL,
+	[Payment Method] [varchar](16) NULL,
+	[Payment flag] [varchar](597) NULL,
+	[DUMMY credit] [smallint] NULL,
+	[Down Payment] [real] NULL,
+	[mthcred] [real] NULL,
+	[Interest Rate] [varchar](1000) NULL,
+	[Discount Rate] [real] NULL,
+	[predicted rate] [real] NULL,
+	[Calculations] [real] NULL,
+	[Ratio] [real] NULL,
+	[PresentValue] [real] NULL,
+	[DUMMY omission] [smallint] NULL,
+	[Reason for Omission] [varchar](127) NULL,
+	[Comments] [varchar](518) NULL,
+	[DUMMY Estate Sale] [smallint] NULL,
+	[Sellers Full Name] [nvarchar](140) NULL
+) ON [PRIMARY]
+GO
+
+
